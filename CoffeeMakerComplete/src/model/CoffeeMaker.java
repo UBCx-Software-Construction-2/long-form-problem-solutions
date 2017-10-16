@@ -19,7 +19,7 @@ public class CoffeeMaker {
         cupsRemaining = 0;
     }
 
-    //REQUIRES: beans between 2.40 and 2.60 cups, water greater than 14.75 cups
+
     //EFFECTS: sets cups remaining to full (20 cups) and time since last brew to 0,
     //         throws BeansAmountException if beans are not between 2.4 and 2.6 cups,
     //         throws WaterException if water <= 14.75
@@ -39,7 +39,7 @@ public class CoffeeMaker {
         }
     }
 
-    //REQUIRES: cups remaining > 0, time since last brew < 60
+
     //MODIFIES: this
     //EFFECTS: subtracts one cup from cups remaining
     //         throws NoCupsRemainingException if cups remaining <= 0
