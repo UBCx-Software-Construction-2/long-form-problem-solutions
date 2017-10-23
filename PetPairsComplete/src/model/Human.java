@@ -69,8 +69,9 @@ public class Human {
     public int numPetsOfSpecies(String species) {
         int num = 0;
         for(Pet p: pets) {
-            if (p.getSpecies().equals(species))
+            if (p.getSpecies().equals(species)) {
                 num++;
+            }
         }
         return num;
     }
