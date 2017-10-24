@@ -42,10 +42,6 @@ public class Human {
         return spendibees >= pet.getPrice();
     }
 
-
-    //MODIFIES: this
-    //EFFECTS: sets spare hours to this
-
     //MODIFIES: this
     //EFFECTS: adds spendibees to this account
     public void addSpendibees(double spendibees) {
