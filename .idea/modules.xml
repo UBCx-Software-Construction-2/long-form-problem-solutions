@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Desktop/long-form-problem-solutions-master/CoffeeMakerComplete/CoffeeMaker.iml" filepath="$USER_HOME$/Desktop/long-form-problem-solutions-master/CoffeeMakerComplete/CoffeeMaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Busy'sDinerComplete/Busy'sDinerComplete.iml" filepath="$PROJECT_DIR$/Busy'sDinerComplete/Busy'sDinerComplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoffeeMakerComplete/CoffeeMakerComplete.iml" filepath="$PROJECT_DIR$/CoffeeMakerComplete/CoffeeMakerComplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/PetPairsComplete/PetPairsComplete.iml" filepath="$PROJECT_DIR$/PetPairsComplete/PetPairsComplete.iml" />
     </modules>
