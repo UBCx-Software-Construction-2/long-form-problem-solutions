@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConsoleArcadeComplete/BingoComplete/BingoComplete.iml" filepath="$PROJECT_DIR$/ConsoleArcadeComplete/BingoComplete/BingoComplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/Busy'sDinerComplete/Busy'sDinerComplete.iml" filepath="$PROJECT_DIR$/Busy'sDinerComplete/Busy'sDinerComplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoffeeMakerComplete/CoffeeMakerComplete.iml" filepath="$PROJECT_DIR$/CoffeeMakerComplete/CoffeeMakerComplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConsoleArcadeComplete/MonsterMazeComplete/MonsterMazeComplete.iml" filepath="$PROJECT_DIR$/ConsoleArcadeComplete/MonsterMazeComplete/MonsterMazeComplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/PetPairsComplete/PetPairsComplete.iml" filepath="$PROJECT_DIR$/PetPairsComplete/PetPairsComplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConsoleArcadeComplete/SillyWordGameComplete/SillyWordGameComplete.iml" filepath="$PROJECT_DIR$/ConsoleArcadeComplete/SillyWordGameComplete/SillyWordGameComplete.iml" />
     </modules>
   </component>
 </project>
