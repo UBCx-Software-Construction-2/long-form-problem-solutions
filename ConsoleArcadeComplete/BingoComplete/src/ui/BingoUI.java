@@ -24,9 +24,9 @@ public class BingoUI {
         game = new Game();
         playerCard = new PlayerCard();
 
-        game.addObserver(playerCard);
-        game.addObserver(new PlayerCard());
-        game.addObserver(new PlayerCard());
+        game.addPlayerCard(playerCard);
+        game.addPlayerCard(new PlayerCard());
+        game.addPlayerCard(new PlayerCard());
 
         stampCounts = new int[game.getCards().size()];
         printGreeting();
