@@ -29,10 +29,8 @@ public class MonsterMaze {
         r2.addChoice(r3);
         r2.addChoice(r6);
 
-        r3.addChoice(r4);
         r3.addChoice(m3);
 
-        r4.addChoice(r3);
         r4.addChoice(r5);
 
         r5.addChoice(m2);
