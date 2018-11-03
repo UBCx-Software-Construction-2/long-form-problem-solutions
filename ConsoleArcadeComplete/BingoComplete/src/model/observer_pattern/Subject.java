@@ -22,6 +22,11 @@ public abstract class Subject {
     }
 
     //EFFECTS: notifies observers of state change
-    public abstract void notifyObservers();
+    @Override
+    public void notifyObservers(){
+        for (Observer o : getObservers()){
+            o.update(currentCall);
+        }
+    }
 
 }
