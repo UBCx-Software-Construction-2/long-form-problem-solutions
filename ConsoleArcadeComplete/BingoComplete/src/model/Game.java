@@ -50,13 +50,6 @@ public class Game extends Subject {
         addObserver(pc);
     }
 
-    //EFFECTS: notifies observers of state change
-    @Override
-    public void notifyObservers(){
-        for (Observer o : getObservers()){
-            o.update(currentCall);
-        }
-    }
 
     //EFFECTS: sets game over to true if one of the players has bingo
     private void checkGameOver(){
