@@ -40,7 +40,7 @@ public class Game extends Subject {
     //EFFECTS: generates the next bingo call and notifies observers
     public void callNext() {
         currentCall = new BingoNumber();
-        notifyObservers();
+        notifyObservers(currentCall);
         checkGameOver();
     }
 
