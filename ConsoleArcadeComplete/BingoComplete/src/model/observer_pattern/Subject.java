@@ -23,7 +23,7 @@ public abstract class Subject {
 
     //EFFECTS: notifies observers of state change
     @Override
-    public void notifyObservers(){
+    public void notifyObservers(BingoNumber currentCall){
         for (Observer o : getObservers()){
             o.update(currentCall);
         }
